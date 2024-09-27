@@ -1,0 +1,29 @@
+
+.navigationMenu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #101010;
+    padding: 10px;
+}
+
+.navigationMenu li {
+    margin: 0 15px;
+}
+
+.navigationMenu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media (max-width: 800px) {
+    .navigationMenu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigationMenu li {
+        margin: 10px 0;
+    }
+}
